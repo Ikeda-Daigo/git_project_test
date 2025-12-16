@@ -24,6 +24,6 @@ jobs:
      # ステップ名（任意）
      - name: Checkout code
        # 使用するライブラリなど
-       uses: actions/checkout@v3
+       uses: actions/checkout@v6
      - name: Print Hellow World And My Name!
        run: echo "Hello World! MyName is ${{ github.actor }}"
